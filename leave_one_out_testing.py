@@ -49,11 +49,6 @@ def predict(new_histogram, known_histograms, known_labels, top_n):
     # Find the top_n similar cases   
     similar_indices = np.argsort(distances)
     top_n_labels = np.array(known_labels)[similar_indices][:top_n].tolist()
-
-
-    # # Find the majority vote
-    # majority_vote = Counter(top_n_labels).most_common(1)[0][0]
-    # print(majority_vote)
     
     # Find the majority vote
     majority_vote = Counter(top_n_labels).most_common(1)[0][0]
