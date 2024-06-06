@@ -60,3 +60,6 @@ For any questions or issues
 - alabtah.ghazal@mayo.edu
 - vaishkum101@gmail.com
 - lukekottom@gmail.com 
+
+## Disclaimer
+This code is intended for research puposes only. Any commercial use is prohibited.
